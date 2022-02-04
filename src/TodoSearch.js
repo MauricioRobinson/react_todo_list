@@ -1,11 +1,11 @@
 import React from 'react';
+import './TodoSearch.css';
 
 function TodoSearch(props) {
 	return (
 		<div>
-			<input placeholder="Onion" />
+			<input className="TodoSearch" placeholder="Onion" />
 		</div>
-
 	);
 }
 
